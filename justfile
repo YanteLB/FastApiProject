@@ -1,4 +1,10 @@
 
+set dotenv-load := true
+set dotenv-path := "env/.env.dev"
+set dotenv-required := true
+set export := true
+
+
 #to run the main file
 set windows-shell := ["pwsh", "-NoLogo", "-NoProfile", "-Command"]
 

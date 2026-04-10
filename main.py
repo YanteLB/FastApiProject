@@ -1,5 +1,7 @@
 
 from fastapi import FastAPI, HTTPException, status
+from openai import OpenAI   
+from settings import env    
 from models import Product
 from database import (
     add_product,
@@ -9,12 +11,23 @@ from database import (
     update_product,
 )
 
+
+openai = OpenAI(api_key=env.OPENAI_API_KEY, base_url=env.OPENAI_BASE_URL)
+response = openai.chat.completions.create(
+    model="gpt-4o-mini",
+    messages=[
+        {"role": "system", "content": "you are a pirate of the carribean, that is funny, witty and snarky, please do not use imojis, decorative symbols, or emoticons. "},
+        {"role": "user", "content": "Hello!"},
+    ],
+)
+
+text = response.choices[0].message.content
+print(text)
 app = FastAPI() 
 
 @app.get("/")
 def read_root():
-    return {"Hello": "World"}
-
+    return  text
 
 @app.get("/products")
 def get_all_products():
