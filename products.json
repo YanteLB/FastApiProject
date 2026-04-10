@@ -1,0 +1,100 @@
+[
+  {
+    "id": 2,
+    "name": "Mechanical Keyboard",
+    "price": 150.0,
+    "description": "Backlit mechanical keyboard",
+    "quantity": 25
+  },
+  {
+    "id": 3,
+    "name": "Wireless Mouse",
+    "price": 60.0,
+    "description": "Ergonomic wireless mouse",
+    "quantity": 40
+  },
+  {
+    "id": 4,
+    "name": "Monitor",
+    "price": 300.0,
+    "description": "27-inch 4K monitor",
+    "quantity": 15
+  },
+  {
+    "id": 5,
+    "name": "USB-C Dock",
+    "price": 180.0,
+    "description": "Multi-port docking station",
+    "quantity": 20
+  },
+  {
+    "id": 6,
+    "name": "Webcam",
+    "price": 89.99,
+    "description": "1080p USB webcam for video calls",
+    "quantity": 18
+  },
+  {
+    "id": 7,
+    "name": "Noise-Canceling Headphones",
+    "price": 249.99,
+    "description": "Over-ear Bluetooth headphones with ANC",
+    "quantity": 12
+  },
+  {
+    "id": 8,
+    "name": "External SSD 1TB",
+    "price": 129.5,
+    "description": "Portable 1TB USB-C solid state drive",
+    "quantity": 20
+  },
+  {
+    "id": 9,
+    "name": "Laptop Stand",
+    "price": 39.99,
+    "description": "Adjustable aluminum stand for laptops",
+    "quantity": 35
+  },
+  {
+    "id": 10,
+    "name": "USB-C Charger 65W",
+    "price": 45.0,
+    "description": "Fast charger suitable for laptops and phones",
+    "quantity": 28
+  },
+  {
+    "id": 11,
+    "name": "Ergonomic Office Chair",
+    "price": 319.0,
+    "description": "Mesh office chair with lumbar support",
+    "quantity": 7
+  },
+  {
+    "id": 12,
+    "name": "4K HDMI Cable",
+    "price": 12.99,
+    "description": "2-meter high-speed HDMI 2.1 cable",
+    "quantity": 60
+  },
+  {
+    "id": 13,
+    "name": "Wireless Presenter",
+    "price": 27.5,
+    "description": "Presentation clicker with laser pointer",
+    "quantity": 22
+  },
+  {
+    "id": 14,
+    "name": "Desk Lamp",
+    "price": 34.99,
+    "description": "LED desk lamp with adjustable brightness",
+    "quantity": 16
+  },
+  {
+    "id": 15,
+    "name": "Ethernet Adapter",
+    "price": 24.0,
+    "description": "USB-C to Gigabit Ethernet adapter",
+    "quantity": 30
+  }
+]
